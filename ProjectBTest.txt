@@ -1,0 +1,235 @@
+Script started on Mon 03 May 2021 08:10:26 PM PDT
+]0;banek001@empress:~/CS421/project[?1034h[banek001@empress project]$ g++ parser.cpp 
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest1
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: watashi
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: watashi
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: sensei
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: rika
+Processing <s>
+Processing <noun>
+Matched WORD1
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: gohan
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: o
+Matched OBJECT
+Processing <afterObject>
+Scanner called using word: tabE
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Scanner called using word: masu
+Matched VERB
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: watashi
+Processing <s>
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: tesuto
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: o
+Matched OBJECT
+Processing <afterObject>
+Scanner called using word: seito
+Processing <noun>
+Matched WORD1
+Scanner called using word: ni
+Matched DESTINATION
+Processing <verb>
+Scanner called using word: agE
+Matched WORD2
+Processing <tense>
+Scanner called using word: mashita
+Matched VERBPAST
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: shikashi
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: seito
+Matched WORD1
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: yorokobI
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Scanner called using word: masendeshita
+Matched VERBPASTNEG
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: dakara
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: kanashii
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: deshita
+Processing <be>
+Matched WAS
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: soshite
+Processing <s>
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: rika
+Matched WORD1
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: toire
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: ni
+Matched DESTINATION
+Processing <verb>
+Scanner called using word: ikI
+Matched WORD2
+Processing <tense>
+Scanner called using word: mashita
+Matched VERBPAST
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: rika
+Processing <s>
+Processing <noun>
+Matched WORD1
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: nakI
+Processing <verb>
+Matched WORD2
+Processing <tense>
+Scanner called using word: mashita
+Matched VERBPAST
+Scanner called using word: .
+Matched PERIOD
+Scanner called using word: eofm
+
+Succesfully Parsed <story>.
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest2
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: soshite
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: ne
+SYNTAX ERROR: Expected VERBNEG but found ne
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest3
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: dakara
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: de
+SYNTAX ERROR: Expected IS but found de
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest4
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: watashi
+Processing <noun>
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <afterSubject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <afterNoun>
+Scanner called using word: mashita
+SYNTAX ERROR: unexpected mashita found in parser  After-Noun
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest5
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: wa
+Processing <noun>
+SYNTAX ERROR: unexpected wa found in parser  Noun
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ ./a.out 
+Enter the input file name: partBtest6
+Processing <Story> 
+
+Processing <s>
+Scanner called using word: apple
+LEXICAL ERROR: apple is not a valid token
+Processing <noun>
+SYNTAX ERROR: unexpected apple found in parser  Noun
+]0;banek001@empress:~/CS421/project[banek001@empress project]$ exit
+exit
+
+Script done on Mon 03 May 2021 08:11:24 PM PDT

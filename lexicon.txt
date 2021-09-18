@@ -1,0 +1,4 @@
+CONNECTOR: Then
+Actor: I/me
+DESCRIPTION: rika
+TENSE: VERB

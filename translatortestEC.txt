@@ -1,0 +1,28 @@
+Script started on Thu 20 May 2021 07:55:19 PM PDT
+]0;banek001@empress:~/CS421/projc[?1034h[banek001@empress projc]$ ex./a.ou[11@g++ translator.cpp[C
+]0;banek001@empress:~/CS421/projc[banek001@empress projc]$ g++ translator.cexit./a.out 
+Enter the input file name: partECtest7
+Processing <Story> 
+
+Processing <S>
+Scanner called using word: soshite
+Matched CONNECTOR
+Processing <noun>
+Scanner called using word: watashi
+Matched PRONOUN
+Scanner called using word: wa
+Matched SUBJECT
+Processing <After-Subject>
+Scanner called using word: rika
+Processing <noun>
+Matched WORD1
+Processing <After-Noun>
+Scanner called using word: desu
+Processing <be>
+Matched IS
+Scanner called using word: ne
+SYNTAX ERROR: Expected VERBNEG but found ne
+]0;banek001@empress:~/CS421/projc[banek001@empress projc]$ exit
+exit
+
+Script done on Thu 20 May 2021 07:56:07 PM PDT
